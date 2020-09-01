@@ -1,0 +1,26 @@
+.col {
+    position: relative;
+}
+
+.recordModifiedWrapper:hover .recordUpdatedTooltip{
+    display: block;
+}
+
+.recordUpdatedIcon {
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.3em; 
+    fill: #54a1e4;
+    cursor: pointer;
+}
+
+.recordUpdatedTooltip {
+    display: none;
+    position: absolute;
+    top: -5px;
+    font-size: 0.8em;
+    left: 5px;
+    background: #c3ddf0;
+    padding: 1px 10px;
+    border-radius: 2px;
+}
